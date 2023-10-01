@@ -38,6 +38,7 @@ button {
 }
 
 .link{
+    display: inline-block;
     text-decoration: none;
     color: inherit;
 }
@@ -90,7 +91,6 @@ button {
     letter-spacing: 0.54px;
     
     margin-right: 76px;
-    padding: 25.5px 0px;
 }
 
 .header-span{
@@ -111,7 +111,6 @@ button {
 }
 
 .header-link{
-    display: inline-block;
     padding: 24px 0px;
 }
 
@@ -318,7 +317,6 @@ flex-direction: column;
     line-height: 1.17;
     letter-spacing: 0.54px;
 
-    display: inline-block;
     margin-bottom: 16px;
 }
 
