@@ -71,6 +71,7 @@ button {
 
 .header-nav{
     display: flex;
+    align-items: center;
     color: var(--navy-blue-color);
 }
 
@@ -155,7 +156,7 @@ button {
     letter-spacing: 0.02em;
     font-weight: 700;
 
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -171,6 +172,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px var(--rgba-color);
     padding: 16px 32px;
@@ -197,7 +199,7 @@ button {
 }
 
 .benefits-list-item{
-width: calc((100-24*3)/4);
+width: calc((100% - 72px) / 4);
 }
 
 .benefits-list-item-title {
@@ -272,13 +274,14 @@ flex-direction: column;
 }
 
 .div-h-p{
-    padding: 32px 16px;
+    padding: 32px 0px;
     text-align: center;
 }
 
 .team-list-item{
-    width: calc((100-24*3)/4);
+    width: calc((100 - 24*3) / 4);
     background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-h{
@@ -311,6 +314,7 @@ flex-direction: column;
 }
 
 .footer-link{
+    display: inline-block;
     margin-bottom: 16px;
     margin-right: 0px;
     padding: 0;
@@ -326,6 +330,11 @@ flex-direction: column;
 
 /* PORTFOLIO SECTION */
 
+.portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .portfolio-div{
     display: flex;
     flex-direction: column;
@@ -334,7 +343,7 @@ flex-direction: column;
 .btn-list{
     display: flex;
     gap: 24px;
-    margin: 96px 0px 72px 0px;
+    margin-bottom: 72px;
     justify-content: center;
 }
 
@@ -358,6 +367,7 @@ flex-direction: column;
 .portfolio-btn:hover, .portfolio-btn:focus{
     color: var(--white-color);
     background-color: var(--ocean-color);
+    border: 1px solid transparent;
 }
 
 .all-list{
@@ -368,13 +378,13 @@ flex-direction: column;
 }
 
 .all-list-item{
-    border: 1px solid var(--cornflower-color);
     width: 360px;
     height: 420px;
 }
 
 .portfolio-div-h-p{
     padding: 32px 16px;
+    border: 1px solid var(--cornflower-color);
 }
 
 .all-list-item-h{
