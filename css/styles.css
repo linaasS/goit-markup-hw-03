@@ -309,17 +309,8 @@ flex-direction: column;
 }
 
 .footer-link{
-    color: var(--iris-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-
     display: inline-block;
     margin-bottom: 16px;
-    padding: 24px 0px;
 }
 
 .footer-span {
