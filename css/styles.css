@@ -44,7 +44,6 @@ button {
 }
 
 .container{
-    display: flex;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -301,10 +300,6 @@ flex-direction: column;
 .footer{
     background-color: var(--navy-blue-color);
     padding: 100px 0px;
-}
-
-.footer-div{
-    flex-direction: column;
 }
 
 .footer-link{
